@@ -3,6 +3,8 @@ li {
     display: none;
 }
 
-li:hover {
-    display: block;
+ul:hover {
+    li {
+        display: block;
+    }
 }
