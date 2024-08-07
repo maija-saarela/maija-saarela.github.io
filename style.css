@@ -4,6 +4,7 @@ li {
 }
 
 ul:hover {
+    background-color: gold;
     li {
         display: block;
     }
