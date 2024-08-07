@@ -3,9 +3,7 @@ li {
     display: none;
 }
 
-ul:hover {
+ul:hover li {
     background-color: gold;
-    li {
-        display: block;
-    }
+    display: block;
 }
