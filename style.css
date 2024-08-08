@@ -3,7 +3,7 @@
     display: none;
 }
 
-ul:hover li {
+ul:hover .dropdown-content {
     background-color: gold;
     display: block;
 }
