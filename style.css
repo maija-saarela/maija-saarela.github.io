@@ -1,6 +1,9 @@
 .dropdown-content {
     list-style: none;
     display: none;
+}
+
+li.a {
     color: white;
 }
 
