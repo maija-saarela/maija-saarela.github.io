@@ -1,10 +1,11 @@
 .dropdown-content {
     list-style: none;
     display: none;
+    color: white;
 }
 
 ul:hover .dropdown-content {
-    background-color: gold;
+    background-color: rgb(0, 34, 107);
     display: block;
 }
 
