@@ -22,9 +22,13 @@ a {
 
 .drop-button {
     color: rgb(30, 67, 119);
-    padding: 16px 32px 16px 0px;
+    padding: 16px 16px 16px 16px;
     text-decoration: none;
     display: block;
+}
+
+.drop-button:hover {
+    background-color: rgba(255, 255, 255, 0.453);
 }
 
 .dropdown-content {
@@ -42,6 +46,10 @@ a {
     display: block;
 
     padding: 16px 32px 16px 16px;
+}
+
+.dropdown-content li:hover {
+    background-color: rgba(0, 89, 70, 0.04);
 }
 
 .dropdown-first:hover .first-content {
@@ -103,6 +111,8 @@ a {
     z-index: 1;
 
     padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .dropdown-content-centered li {
